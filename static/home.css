@@ -1,0 +1,39 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Styling for links */
+a {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #4cae4c;
+}
+
+/* Container for the links */
+.container {
+    margin-top: 30px;
+    display: inline-block;
+}
+
